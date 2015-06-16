@@ -72,6 +72,6 @@ if __name__ == "__main__":
 
     (opt, args) = parser.parse_args()
 
-    main(corpus=opt.corpus, p_value=opt.p_value,
+    main(corpus_file=opt.corpus, pvalue=opt.p_value,
          use_perm_test=opt.use_perm, out_filename=opt.out_filename,
          min_count = opt.min_count)
